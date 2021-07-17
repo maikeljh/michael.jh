@@ -77,6 +77,11 @@ hr {
     text-align: center;
 }
 div.introduce .gambar-pribadi{
+    border:2px solid #fff;
+    box-shadow: 0px 6px 5px;
+    -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;
     margin-top: 3cm;
     height: 7cm;
     text-align: center;
@@ -99,5 +104,18 @@ div.introduce .gambar-pribadi{
     margin-top: 5em;
 }
 .gambar-edukasi{
+    border:2px solid #fff;
+    -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;
+    box-shadow: 0px 6px 5px;
+    max-width: 15em;
+}
+.gambar-working, .gambar-certificates {
+    border:2px solid #fff;
+    -moz-border-radius:190px;
+  -webkit-border-radius:190px;
+  border-radius:190px;
+    box-shadow: 0px 6px 5px;
     max-width: 15em;
 }
