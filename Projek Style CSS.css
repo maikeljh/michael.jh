@@ -55,6 +55,9 @@ li.nav-icon {
     transform: scale(0.09);
     float: left;
 }
+#intro {
+    background-image: url('https://i.pinimg.com/originals/1e/ef/c5/1eefc5567dc5c55f67ef6849b9235582.jpg');
+}
 #section-introduction {
     padding: 0 0;
 }
@@ -62,7 +65,7 @@ hr {
     max-width: 300px;
     margin: 0 auto;
 }
-.introduce, .education, .working{
+.introduce, .education, .working, .achievements, .certificates{
     text-align: center;
 }
 div.introduce .gambar-pribadi{
@@ -71,13 +74,14 @@ div.introduce .gambar-pribadi{
     text-align: center;
 }
 .perkenalandiri, .edukasidiri, .codingdiri{
+    color: white;
     font-size: 1.4em;
     width: 80%;
     max-width: 24em;
     margin: 1em auto;
     text-align: justify;
 }
-.education, .working {
+.education, .working, .achievements, .certificates{
     margin-left: auto;
     margin-right: auto;
     width: 49.5%;
