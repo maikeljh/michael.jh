@@ -122,7 +122,7 @@ div.introduce .gambar-pribadi{
     max-width: 15em;
 }
 #section-cv{
-    background-image: url('https://images.wallpapersden.com/image/download/dark-blue-sky-above-snow-covered-mountain_bGplamaUmZqaraWkpJRmbmdlrWZlbWU.jpg');
+    background-image: url('./gunung.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
