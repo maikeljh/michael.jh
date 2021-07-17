@@ -3,22 +3,27 @@ html, body{
     padding: 0;
 }
 #perkenalan {
-    background-image: url('https://www.kibrispdr.org/data/programmer-wallpaper-hd-10.jpg');
+    background-image: url('https://i.ytimg.com/vi/d-zKJCKsoWw/maxresdefault.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
     height: 100vh;
+    opacity: 100%;
 }
 #Welcome-Text {
     position: absolute;
     word-spacing: 3px;
     margin: 0;
     width: 100%;
-    top: 30%;
+    top: 35%;
     text-align: center;
     color: white;
+    font-size: 50px;
+    filter: ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px black;
 }
 ul.nav{
     position: sticky;
@@ -56,7 +61,10 @@ li.nav-icon {
     float: left;
 }
 #intro {
-    background-image: url('https://i.pinimg.com/originals/1e/ef/c5/1eefc5567dc5c55f67ef6849b9235582.jpg');
+    background-image: url('https://www.cnet.com/a/img/pecM5xCV-zw0mXTSlBwpAbYuPLw=/2018/06/07/78e06ce4-81e0-4b35-992f-6a2b3585b931/mojave-night.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+   
 }
 #section-introduction {
     padding: 0 0;
@@ -80,6 +88,7 @@ div.introduce .gambar-pribadi{
     max-width: 24em;
     margin: 1em auto;
     text-align: justify;
+    text-shadow: 5px 5px black;
 }
 .education, .working, .achievements, .certificates{
     margin-left: auto;
