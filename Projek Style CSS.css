@@ -300,15 +300,15 @@ footer {
     }
 }
 
-@supports (-webkit-touch-callout: none) and (max-width: 600px);{
+@supports (-webkit-touch-callout: none) and (max-width: 1000px);{
     /* CSS specific to iOS devices */ 
     #perkenalan {
-        background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+        background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80.jpg');
         background-attachment: fixed;
         background-size: cover;
     }
     #section-cv {
-        background-image: url('https://www.kibrispdr.org/data/background-navy-blue-1.jpg');
+        background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v210-n-10-universewatercolors_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=42f1f2962b364269972520719aa23378.jpg');
         background-attachment: fixed;
         background-size: cover;
     }
