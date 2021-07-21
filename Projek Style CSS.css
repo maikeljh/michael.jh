@@ -299,3 +299,17 @@ footer {
         transition: .5s;
     }
 }
+
+@supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */ 
+    #perkenalan {
+        background-image: url('https://wallpaper.dog/large/5488643.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #section-cv {
+        background-image: url('https://www.kibrispdr.org/data/background-navy-blue-1.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+    }
+ }
