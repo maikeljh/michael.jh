@@ -225,3 +225,25 @@ footer {
     font-size: 15px;
     text-shadow: 2px 2px black;
 }
+
+@media only screen and (max-width: 600px) {
+    li.nav-icon {
+        display: none;
+    }
+    ul.nav {
+        text-align: center;
+    }
+    #myForm, .contact-info {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-info {
+        display: block;
+        text-align: center;
+        transform: translateX(-20px);
+        padding-right: auto;
+    }
+    .gambar-cv{
+        width: 90%;
+    }
+}
