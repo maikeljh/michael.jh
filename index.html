@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael's Introduction Page</title>
     <link rel="stylesheet" href="./Projek Style CSS.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script>
+		function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/15699/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Form Data Submitted :)")
+				},
+				error: function(){
+					alert("There was an error :(")
+				}
+			});
+		}
+	</script>
 </head>
 <body>
     <ul class="nav">
@@ -14,7 +30,10 @@
         <li><a href="#section-cv">My CV</a></li>
         <li><a href="#section-contactme">Contact Me</a></li>
     </ul>
-    <div id="perkenalan"><h1 id="Welcome-Text">Hello! <br>Welcome to Michael Jonathan's Page <br> (Created by myself)</h1></div>
+    <div id="perkenalan">
+        <h1 id="Welcome-Text">Hello! <br>Welcome to Michael Jonathan's Page</h1>
+        <br>
+    </div>
     <div style="background-color: black; height: 2cm;">tes</div>
     <div id="intro">
     <div id="section-introduction">
@@ -50,18 +69,48 @@
             <img src="./cv.jpg" alt="CV" class="gambar-cv">
         </div>
         <br>
-        <hr>
-        <div class="gambarsertifikat1">
-            <p>Certificates</p>
-            <div class="sertif1">
-                <img src="./Sertifikat Waterloo.jpg" alt="waterloo" class="gambar-waterloo">
-            </div>
-            <div class="sertif2">
-                <img src="./osp.jpg" alt="osp" class="gambar-waterloo">
-            </div>
-        </div>
-        <br> <br>
     </div>
     <div style="background-color: black; height: 2cm;">tes</div>
+    <div id="section-contactme">
+        <br> <p></p> <br>
+        <h1 id="contact-me">Contact Me</h1>
+        <form id="myForm">
+            <div class="classnama">
+                <label for="name" id="labelnama">Name</label>
+                <input type="text" id="inputnama" name="Nama">
+            </div>
+            <div class="classemail">
+                <label for="email" id="labelemail">Email</label>
+                <input type="text" id="inputemail" name="Email">
+            </div>
+            <div class="classpesan">
+                <label for="pesan" id="labelpesan">Message</label>
+                <textarea name="Pesan" id="textpesan" cols="30" rows="10" itemid=""></textarea>
+            </div>
+            <button id="buttonsend" onclick="SubForm()">Submit</button>
+        </form>
+        <div class="contact-info">
+            <div>
+                <a href="tel:0812-9933-0950" class="contacthp">
+                    <img src="./telpon.png" alt="" class="gambar-contact">
+                    <span class="contact-desktop">081299330950</span>
+                </a>
+            </div>
+            <div>
+                <a href="mailto:itsmichaeljonathan@gmail.com" class="contactemail">
+                    <img src="email.png" alt="" class="gambar-contact">
+                    <span class="contact-desktop">itsmichaeljonathan@gmail.com</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/michael-jonathan-halim-a33348142/" target="_blank" class="contactlinkedin">
+                    <img src="./linkedin.png" alt="" class="gambar-contact">
+                    <span class="contact-desktop">Michael Jonathan Halim</span>
+                </a>
+            </div>
+        </div>
+        <br> <p></p> <br>
+    </div>
+    <footer>Created by Michael Jonathan</footer>
 </body>
 </html>
