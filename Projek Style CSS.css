@@ -263,7 +263,7 @@ footer {
         margin-top: 5em;
     }
     #Welcome-Text {
-        padding-top: 120px;
+        padding-top: 150px;
         word-spacing: 3px;
         margin: 0;
         width: 100%;
@@ -290,5 +290,12 @@ footer {
     .introduce, .education, .working, .achievements, .certificates{
         text-align: center;
         width: 100%;
+    }
+    .nav > li > a{
+        padding: 1.5em 1em;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        transition: .5s;
     }
 }
