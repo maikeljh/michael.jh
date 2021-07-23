@@ -20,7 +20,7 @@ html, body{
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    text-shadow: 5px 5px black;
+    text-shadow: 2px 2px black;
 }
 
 ul.nav{
@@ -93,7 +93,7 @@ div.introduce .gambar-pribadi{
     max-width: 24em;
     margin: 1em auto;
     text-align: justify;
-    text-shadow: 5px 5px black;
+    text-shadow: 2px 2px black;
 }
 .education, .working, .achievements, .certificates{
     margin-left: auto;
@@ -215,7 +215,7 @@ div.introduce .gambar-pribadi{
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    text-shadow: 3px 3px black;
+    text-shadow: 2px 2px black;
 }
 footer {
     text-align: center;
@@ -279,7 +279,7 @@ footer {
         font-size: 1.4em;
         width: 80%;
         text-align: justify;
-        text-shadow: 5px 5px black;
+        text-shadow: 2px 2px black;
     }
     .gambar-edukasi{
             text-align: center;
