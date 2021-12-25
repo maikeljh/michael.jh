@@ -120,7 +120,7 @@ div.introduce .gambar-pribadi{
     max-width: 15em;
 }
 #section-cv{
-    background-image: url('./gunung.jpg');
+    background-image: url('../images/gunung.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -300,7 +300,7 @@ footer {
     }
 }
 
-@supports (-webkit-touch-callout: none) and (max-width: 1000px);{
+@supports (-webkit-touch-callout: none) and (max-width: 1000px){
     /* CSS specific to iOS devices */ 
     #perkenalan {
         background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80.jpg');
